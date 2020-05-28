@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import SearchMovies from './SearchMovies'
 import './style.css';
 
 class App extends Component {
@@ -15,6 +15,7 @@ class App extends Component {
     return (
       <div class="container">
         <h1 class="title">React Movie Search</h1>
+        <SearchMovies />
       </div>
     );
   }
